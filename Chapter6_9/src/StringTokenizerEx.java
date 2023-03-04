@@ -1,0 +1,11 @@
+import java.util.StringTokenizer;
+
+public class StringTokenizerEx {
+	
+	public static void main(String[] args) {
+		StringTokenizer st = new StringTokenizer("»´±Êµø/¿Â»≠/≥Î±‘º±/ƒ·¡„", "/");
+		
+		while (st.hasMoreTokens())
+			System.out.println(st.nextToken());
+	}
+}
